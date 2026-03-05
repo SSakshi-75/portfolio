@@ -28,8 +28,7 @@ function App(){
     <Router>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/login" element={<AdminLogin />} />
+       
       </Routes>
     </Router>
   )
